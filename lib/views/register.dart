@@ -211,6 +211,7 @@ class _RegisterPageState extends State<RegisterPage> {
               password: password,
             )
             .whenComplete(() => {
+                  FirebaseAuth.instance.currentUser!.sendEmailVerification(),
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(

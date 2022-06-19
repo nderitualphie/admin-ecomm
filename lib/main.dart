@@ -1,6 +1,7 @@
 import 'package:admin_dashboard/views/defaultpage.dart';
 import 'package:admin_dashboard/views/login.dart';
 import 'package:admin_dashboard/views/register.dart';
+import 'package:admin_dashboard/views/verifyemail.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
               if (snapshot.hasData) {
                 return DefaultPage();
               } else {
-                return RegisterPage();
+                return Loginpage();
               }
             }));
   }
