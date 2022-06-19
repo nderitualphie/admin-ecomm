@@ -36,6 +36,7 @@ dependencies:
   firebase_core: ^1.18.0
   flutter:
     sdk: flutter
+  provider: ^6.0.3
 
 dev_dependencies:
   firebase_storage: ^10.2.18

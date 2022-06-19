@@ -169,6 +169,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                   },
                                   onChanged: (value) {},
                                 ),
+                                SizedBox(height: 20),
                                 Column(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceEvenly,
